@@ -1,0 +1,7 @@
+Peberdaan antara let, const, dan var adalah :
+    - let : digunakan ketika ingin mendefinisikan variable yang nilainya dapat berubah
+    - const : digunakan ketika ingin mendefinisikan variable yang nilainya tidak dapat di ubah
+    - var : digunakan untuk variabel yang memiliki cakupan fungsi atau global dan memerlukan hoisting
+            (mekanisme dalam JavaScript di mana deklarasi variabel dan fungsi dipindahkan (diangkat) ke 
+            bagian atas cakupan mereka sebelum kode dijalankan. Ini berarti bahwa variabel dan fungsi dapat 
+            digunakan sebelum mereka dideklarasikan dalam kode, meskipun nilainya mungkin belum diinisialisasi)
