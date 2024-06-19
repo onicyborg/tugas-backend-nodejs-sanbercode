@@ -2,9 +2,9 @@ import { v2 as cloudinary } from 'cloudinary';
 import { Readable } from 'stream';
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME || 'dltyn12ut',
+  api_key: process.env.CLOUDINARY_API_KEY || '597338953475147',
+  api_secret: process.env.CLOUDINARY_API_SECRET || 'QM8Ix5fgFzMjRIpwAHpdob8oCvs',
 });
 
 export const uploadSingleFile = (file: Express.Multer.File): Promise<any> => {
